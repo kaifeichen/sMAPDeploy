@@ -1,0 +1,31 @@
+Location,Equipment,Name,Type,GQL Path,etc
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Zone Temp 1 / Zone Temp,BAI,/#etc_fcu_-_sample_equipment/lstat/zone_temp,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,CHW Coil DP,BAI,/#etc_fcu_-_sample_equipment/chw_coil_dp,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,CHWR Temp,BAI,/#etc_fcu_-_sample_equipment/chwr_temp,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,CHWS Temp,BAI,/#etc_fcu_-_sample_equipment/chws_temp,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,CHW VLV FDBK,BAI,/#etc_fcu_-_sample_equipment/chw_vlv_fdbk,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Duct Static Pressure,BAI,/#etc_fcu_-_sample_equipment/static,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,HW Coil DP,BAI,/#etc_fcu_-_sample_equipment/hw_coil_dp,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,HWR Temp,BAI,/#etc_fcu_-_sample_equipment/hwr_temp,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,HWS Temp,BAI,/#etc_fcu_-_sample_equipment/hws_temp,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,HW VLV FDBK,BAI,/#etc_fcu_-_sample_equipment/hw_vlv_fdbk,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,MAT Averging Sensor,BAI,/#etc_fcu_-_sample_equipment/mat_avg_sensor,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,MAT Pnt Sensor,BAI,/#etc_fcu_-_sample_equipment/mat_pnt_sensor,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Prefilter DP,BAI,/#etc_fcu_-_sample_equipment/pfilter_dp,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Ret Air Temp 1,BAI,/#etc_fcu_-_sample_equipment/ra_temp_1,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Ret Air Temp 2,BAI,/#etc_fcu_-_sample_equipment/ra_temp_2,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Ret Dmpr 1 Fdbk,BAI,/#etc_fcu_-_sample_equipment/ret_dmpr_1_fdbk,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Ret Dmpr 2 Fdbk,BAI,/#etc_fcu_-_sample_equipment/ret_dmpr_2_fdbk,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Room CO2,BAI,/#etc_fcu_-_sample_equipment/ra_co2,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Sup Dmpr 1 Fdbk,BAI,/#etc_fcu_-_sample_equipment/sup_dmpr_1_fdbk,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Sup Dmpr 2 Fdbk,BAI,/#etc_fcu_-_sample_equipment/sup_dmpr_2_fdbk,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Supply Air Temp,BAI,/#etc_fcu_-_sample_equipment/sa_temp,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Zone Temp 2,BAI,/#etc_fcu_-_sample_equipment/zone_temp_2,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Cooling Valve,BAO,/#etc_fcu_-_sample_equipment/chw_valve,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Heating Valve,BAO,/#etc_fcu_-_sample_equipment/hw_valve,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Ret Damper 1,BAO,/#etc_fcu_-_sample_equipment/rd1,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Ret Damper 2,BAO,/#etc_fcu_-_sample_equipment/rd2,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,SF VFD Speed,BAO,/#etc_fcu_-_sample_equipment/sf_vfd_output,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Sup Damper 1,BAO,/#etc_fcu_-_sample_equipment/sd1,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Sup Damper 2,BAO,/#etc_fcu_-_sample_equipment/sd2,1
+/ucb_etcheverry_hall/UCB Etcheverry Hall/2nd Floor,FCU - RM 2169,Sup Fan S/S,BBO,/#etc_fcu_-_sample_equipment/sfan,1

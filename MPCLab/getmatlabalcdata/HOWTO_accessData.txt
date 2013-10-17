@@ -1,0 +1,67 @@
+--- HOW TO ACCESS HVAC DATA FROM MATLAB ---
+
+Author: Marco Della Vedova <marco.dellavedova@unipv.it>
+Date: 2011-10-03
+
+
+WARNING: All the following instructions work inside the mpclab network.
+
+
+***************************************************************
+* (A) ACCESS MPCLAB TRENDS FROM MATLAB (via SOAP)
+***************************************************************
+
+1. Create a variable:
+       system = struct('type','soap','url','http://192.168.1.103','user','MPCLABSOAP','pwd','mpclabsoap')
+
+2. Figure out the trend name (a.k.a. "point") in which you are interest, e.g.
+       trendname = '#etc_oa_terminal_-_sample_equipment/oat';
+   A list of trends' names can be found in the file "mpclab_trends.csv".
+
+3. Call the function:
+       trend = get_alc_trend(system,trendname, now-7, now);
+   where 'now-7' and 'now' are the time limits (in this case, the last 7 days starting from now).
+   The function returns (after a while) a timeseries object containing trend data VS time.
+
+
+***************************************************************
+* (B) ACCESS MPCLAB POINTS FORM MATLAB (via SOAP)
+***************************************************************
+
+0. A point value is the current value inside the ALC system.
+   You can:
+   - get a point (current) value using the function "get_alc_value";
+   - set a point value using the function "set_alc_value", overwriting the value given by the ALC system;
+   - unset a point value and give back the control of the point to the ALC system, using the function "unset_alc_value".
+
+1. Create a variable:
+       system = struct('type','soap','url','http://192.168.1.103','user','MPCLABSOAP','pwd','mpclabsoap')
+
+2. Figure out the trend name (a.k.a. "point") in which you are interest, e.g.
+       pointname = '/#etc_fcu_-_sample_equipment/sf_vfd_output';
+   A list of trends can be found in the file "mpclab_points.csv".
+
+3. Call one of the functions:
+       value = get_alc_value(system,pointname);
+       set_alc_value(system,pointname,valueToSet);
+       unset_alc_value(system,pointname);
+   where 'valueToSet' is the value that you want to set.
+
+
+***************************************************************
+* (C) ACCESS BANCROFT LIBRARY TRENDS FROM MATLAB (via MYSQL)
+***************************************************************
+
+1. Make sure to have the Matlab Database Toolbox installed. Use command ver to check.
+
+2. Make sure to have the JDBC (Java DataBase Connectivity) driver installed and configured in Matlab.
+   If not, download it from www.mysql.com/downloads/connector/j/ (currently, the file name is mysql-connector-java-5.1.17.zip).
+   Unzip this file and add the path of the .jar file at the end of the file MATLABDIR/toolbox/local/classpath.txt on your machine, as stated in the toolbox documentation:
+       http://www.mathworks.com/help/toolbox/database/gs/braiey2-1.html#braiey2-24
+   Restart Matlab and try to run the "test_mysqltrend.m": it should plot the outside air temperature trend of the last 10 days.
+
+3. The function "get_alc_trend" is used to access the trends on our copy of the Bancroft library database.
+   The parameter "system" must be set as follow:
+       system = struct('type', 'mysql','url','192.168.1.102','user','MPCview','pwd','MPCview')
+
+
